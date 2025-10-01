@@ -1,0 +1,12 @@
+{
+    "product_id": "test product id",
+    "first_name": "john",
+    "last_name": "doe",
+    "email": "john.doe@example.com",
+    "address1": "123 main street",
+    "address2": "apt 4",
+    "city": "san francisco",
+    "state": "CA",
+    "Zip": "94111",
+    "country": "US"
+}
