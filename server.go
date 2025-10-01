@@ -70,12 +70,12 @@ func handleCreatePaymentIntent(w http.ResponseWriter, r *http.Request) {
 
 func calculateOrderAmount(productID string) int64 {
 	switch productID {
-	case "Pannts":
-		return 1000
-	case "T-Shirt":
-		return 2000
-	case "Flops":
-		return 3000
+	case "Forever Pants":
+		return 10000
+	case "Forever Shirt":
+		return 20000
+	case "Forever Shorts":
+		return 30000
 	default:
 		return 0
 	}
